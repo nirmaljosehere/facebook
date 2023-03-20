@@ -1,0 +1,52 @@
+/* create-room */
+.create-room {
+  display: flex;
+  /* direction must be "row" for child's sticky scroll */
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  position: relative;
+  height: 64px;
+}
+.create-room-button {
+  /* all: unset; */
+  background: unset;
+  outline: unset;
+  height: 40px;
+  padding: 0 12px;
+  border: 2px solid var(--primary-deemphasized-button-background);
+  border-radius: 1000px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--blue-link);
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  white-space: nowrap;
+}
+.create-room-friends {
+  display: flex;
+}
+.create-room-friends img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--media-inner-border);
+  border-radius: 1000px;
+  margin-right: 16px;
+}
+.action-button-2 {
+  width: 48px;
+  /* add flex properties cause parent div is flex that calculate children's size automatically */
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 48px;
+  background: var(--popover-background);
+  position: sticky;
+  right: 0;
+  border-radius: 1000px;
+  box-shadow: 0 2px 8px var(--shadow-1), 0 0 0 1px var(--shadow-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4px;
+}

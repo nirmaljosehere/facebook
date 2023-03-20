@@ -1,0 +1,79 @@
+/* Facebook Menu */
+.content-grid .column-left {
+  /* background: pink; */
+}
+.content-grid .column-left .fixed-area {
+  /* background: green; */
+  position: sticky;
+  top: var(--header-height);
+}
+.content-grid .column-left .menus {
+  padding-top: 16px;
+}
+.content-grid .column-left li {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.content-grid .column-left .menus img {
+  width: 36px;
+  height: 36px;
+  border-radius: 1000px;
+  margin-right: 12px;
+}
+.menu-profile-item img {
+  border: 1px solid var(--media-inner-border);
+}
+.content-grid .column-left .menus li .new-info {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.content-grid .column-left .menus li .new-info .dot {
+  width: 7px;
+  height: 7px;
+  background: var(--accent);
+  display: block;
+  border-radius: 1000px;
+  margin-right: 3.8px;
+}
+.content-grid .column-left .separator {
+  border-bottom: 1px solid var(--divider);
+  margin: 0 16px;
+  margin-top: 8px;
+}
+.content-grid .column-left .shortcuts .title {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--secondary-text);
+}
+.content-grid .column-left .shortcuts img {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+.content-grid .column-left .shortcuts span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.action-button-3 {
+  width: 36px;
+  height: 36px;
+  border-radius: 1000px;
+  background: var(--secondary-button-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}

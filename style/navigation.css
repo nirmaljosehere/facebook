@@ -1,0 +1,101 @@
+/* Navigation */
+nav {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+  background: var(--always-white);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+nav .column-left {
+  display: flex;
+  align-items: center;
+}
+nav .fb-logo {
+  margin-left: 16px;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+}
+nav .search {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 10px;
+  background: var(--comment-background);
+  width: 240px;
+  padding-left: 12px;
+}
+@media only screen and (max-width: 1300px) {
+  nav .search {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+nav input {
+  all: unset;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  margin-left: 8px;
+}
+
+nav .column-center {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
+nav .tab {
+  max-width: 129.6px;
+  width: 10vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+nav .column-center .tab .bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-bottom: 3px solid var(--primary-button-background);
+}
+
+nav .column-right {
+  /* background: chartreuse; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 16px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  padding-right: 12px;
+}
+.profile img {
+  width: 28px;
+  height: 28px;
+  border-radius: 1000px;
+  border: 1px solid var(--media-inner-border);
+  margin-right: 6px;
+}
+.profile span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.action-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: var(--secondary-button-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}

@@ -1,0 +1,152 @@
+/* feed */
+.card.post {
+  padding: 0;
+}
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px 0px 16px;
+}
+.post-author-info {
+  display: flex;
+  align-items: center;
+}
+.post-author-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+  margin-right: 8px;
+}
+.post-author-info .author-name {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-right: 5.5px;
+}
+.post-author-info .details {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.post-body {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 8px 16px 16px 16px;
+}
+.post-image img {
+  width: 100%;
+  display: block;
+}
+.post-image .excerpt {
+  width: 100%;
+  background: var(--comment-background);
+  padding: 12px 10px;
+  position: relative;
+}
+.post-image .excerpt label {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.post-image .excerpt h3 {
+  color: var(--primary-text);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  /* margin: 5px 0; */
+}
+.post-image .excerpt span {
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post-info-icon-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 1000px;
+  border: 1px solid var(--media-inner-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--always-white);
+  position: absolute;
+  right: 14px;
+  top: 0;
+  transform: translateY(-50%);
+}
+.post-reactions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--divider);
+}
+.post-reactions .reactions {
+  display: flex;
+  align-items: center;
+}
+.post-reactions .reactions .emojis {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.post-reactions .reactions img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  border: 2px solid var(--card-background);
+  margin-left: -4px;
+}
+.post-reactions .reactions span {
+  font-size: 15px;
+  padding-left: 6px;
+}
+.post-reactions .comment-share {
+  display: flex;
+}
+.post-reactions .comment-share span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.post-reactions .comment-share .shares {
+  margin-left: 7px;
+}
+.post-actions {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  height: 44px;
+  padding: 0 12px;
+}
+.post-actions .actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.post-actions .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 6px 2px;
+}
+.post-actions .action i,
+.post-actions .action span {
+  padding: 6px 4px;
+}
+.post-actions .interact-as {
+  display: flex;
+  align-items: center;
+}
+.post-actions .interact-as img {
+  width: 20px;
+  height: 20px;
+  border-radius: 1000px;
+  margin-right: 2px;
+}

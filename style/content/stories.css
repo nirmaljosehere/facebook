@@ -1,0 +1,125 @@
+/* stories */
+.stories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  position: relative;
+}
+@media only screen and (max-width: 1300px) {
+  .stories {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.more-stories-button {
+  background: var(--popover-background);
+  box-shadow: 0 0 0 1px var(--shadow-1);
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story {
+  box-shadow: 0 1px 2px var(--shadow-2);
+  border-radius: 10px;
+  overflow: hidden;
+  background: yellow;
+  padding-top: 177.77777777777777%;
+  /* background: yellowgreen; */
+  position: relative;
+}
+.story-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: tomato;
+  width: 100%;
+  height: 100%;
+}
+.story-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-inner .overlay-gradient {
+  background: linear-gradient(0deg, var(--always-dark-overlay), transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.story-inner .story-author-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 12px;
+}
+.story-inner .story-author-img img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+  box-shadow: 0 1px 2px var(--shadow-2);
+  border: 4px solid var(--accent);
+}
+.story-inner .story-author-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--always-white);
+}
+.story-cta {
+  display: flex;
+  flex-direction: column;
+}
+.story-cta-profile {
+  position: relative;
+  background: green;
+  height: 100%;
+}
+.story-cta-profile img {
+  position: absolute;
+  top: 0px;
+}
+.story-cta .story-cta-text {
+  padding: 28px 16px 12px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  background: var(--card-background);
+}
+.story-cta .new-story-button-wrap {
+  background: var(--card-background);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+}
+.story-cta .new-story-button {
+  background: var(--accent);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+}
