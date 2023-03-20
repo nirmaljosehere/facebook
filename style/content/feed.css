@@ -45,6 +45,30 @@
   padding: 12px 10px;
   position: relative;
 }
+
+.post-image .excerpt-left {
+  float: left;
+}
+
+.excerpt-right {
+  float: right;
+}
+
+.post-image .excerpt-left label {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.post-image .excerpt-left h3 {
+  color: var(--primary-text);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  /* margin: 5px 0; */
+}
+
 .post-image .excerpt label {
   font-size: 13px;
   font-weight: 400;
@@ -87,6 +111,7 @@
   justify-content: space-between;
   padding: 10px 16px;
   border-bottom: 1px solid var(--divider);
+  clear: left;
 }
 .post-reactions .reactions {
   display: flex;
