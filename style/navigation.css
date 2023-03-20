@@ -49,6 +49,7 @@ nav .column-center {
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
+  top: 1%;
 }
 nav .tab {
   max-width: 129.6px;
