@@ -2,7 +2,7 @@
 nav {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
   background: var(--always-white);
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   position: fixed;
   width: 100%;
@@ -49,7 +49,6 @@ nav .column-center {
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
-  top: 1%;
 }
 nav .tab {
   max-width: 129.6px;
