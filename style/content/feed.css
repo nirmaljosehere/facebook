@@ -41,7 +41,6 @@
 }
 .post-image .excerpt {
   width: 100%;
-  background: var(--comment-background);
   padding: 12px 10px;
   position: relative;
 }
